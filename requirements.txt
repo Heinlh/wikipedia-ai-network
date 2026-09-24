@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+lxml
+pandas
+networkx
+matplotlib
+numpy
+scipy
+jinja2
+ipykernel
