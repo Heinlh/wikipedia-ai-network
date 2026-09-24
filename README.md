@@ -2,7 +2,7 @@
 
 **Question:** Which AI concepts are most central to Wikipedia's coverage of artificial intelligence, and how do they group into topics?
 
-`wikipedia_ai_network.ipynb` builds a directed network of English Wikipedia articles related to AI and machine learning. A node represents one Wikipedia article, and a directed edge represents a hyperlink from one article's body text to another article in the network.
+`wikipedia_ai_network_414.ipynb` builds a directed network of English Wikipedia articles related to AI and machine learning. A node represents one Wikipedia article, and a directed edge represents a hyperlink from one article's body text to another article in the network.
 
 Links from navigation boxes, infoboxes, references, and other page elements are excluded so that the network focuses on links placed within article content.
 
