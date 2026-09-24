@@ -13,7 +13,7 @@ Articles are analyzed using:
 * **Betweenness centrality** to identify concepts that connect different parts of the network
 * **Louvain community detection** to identify groups of closely connected AI topics
 
-The analysis used for the published findings was collected on **September 23, 2026** and resulted in a network of **310 articles and 2,369 directed edges**.
+The data used for the published findings was collected on **September 23, 2026** and resulted in a network of **310 articles and 2,369 directed edges**.
 
 ## Running the notebook
 
@@ -36,7 +36,7 @@ You will also need Jupyter Notebook, JupyterLab, or an editor such as VS Code wi
 
 The repository does **not** include the cached Wikipedia API responses used on my machine.
 
-Before running the notebook for the first time, open `wikipedia_ai_network.ipynb` and change:
+Before running the notebook for the first time, open `wikipedia_ai_network_414.ipynb` and change:
 
 ```python
 REFRESH_DATA = False
@@ -89,11 +89,8 @@ A fresh run should therefore be treated as a new snapshot of the Wikipedia AI ne
 
 | Path                           | Contents                                                                                 |
 | ------------------------------ | ---------------------------------------------------------------------------------------- |
-| `wikipedia_ai_network.ipynb`   | Main data collection, cleaning, network analysis, validation, and visualization notebook |
-| `findings.md`                  | Written summary of the analysis and findings                                             |
-| `data/raw/`                    | Locally generated cached MediaWiki API responses                                         |
-| `data/nodes.csv`               | Final node-level results, including centrality and community metrics                     |
-| `data/edges.csv`               | Final directed hyperlink edges                                                           |
+| `wikipedia_ai_network_414.ipynb`   | Main data collection, cleaning, network analysis, validation, and visualization notebook |
+| `findings.md`                  | Written summary of the analysis and findings|                                   
 | `figures/network_clusters.png` | Wikipedia AI network visualization grouped by community                                  |
 | `figures/top20_pagerank.png`   | Top 20 AI concepts ranked by PageRank                                                    |
 | `requirements.txt`             | Required Python packages                                                                 |
